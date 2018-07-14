@@ -13,7 +13,7 @@ See https://developers.google.com/app-conversion-tracking/.
 
 Install with cordova cli:
 
-    cordova plugin add https://github.com/MyHealthTeams/google-app-conversion-tracker.git
+    cordova plugin add cordova-plugin-google-app-conversion-tracking
 
 Google SDK libraries are included in the plugin. You'll need to make sure the AdSupport.framework is linked in xcode for the iOS app.
 
