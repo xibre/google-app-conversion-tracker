@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
   xmlns:android="http://schemas.android.com/apk/res/android"
-  id="cordova-plugin-google-app-conversion-tracking" version="1.0.0">
+  id="cordova-plugin-google-app-conversion-tracking" version="1.0.1">
 
   <name>Google Conversion Tracking</name>
   <description>Cordova Plugin for Google App Install Conversion Tracking</description>
@@ -54,7 +54,7 @@
     </edit-config>
 
     <source-file src="src/android/GoogleAppTracking.java" target-dir="src/com/myhealthteams/plugins" />
-    <source-file src="lib/android/GoogleConversionTrackingSdk-2.2.2.jar" target-dir="libs" />
+    <source-file src="lib/android/GoogleConversionTrackingSdk-2.2.2.jar" target-dir="app/libs" />
   </platform>
 
 </plugin>
